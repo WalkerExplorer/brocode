@@ -1,4 +1,4 @@
-from brocode.backend.model.codegen import CodeGenerationPipeline
+from brocode.backend.src.model.codegen import CodeGenerationPipeline
 
 from .classes import ModelData
 
