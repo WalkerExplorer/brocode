@@ -5,9 +5,10 @@ from pydantic_settings import BaseSettings
 from pydantic import BaseModel
 from dataclasses import dataclass
 
+USE_NGROK = os.environ.get("USE_NGROK", "False") == "True"
 class Settings(BaseSettings):
     BASE_URL: str = 'http://13.53.37.23:8000'
-    USE_NGROK = os.environ.get("USE_NGROK", "False") == "True"
+    USE_NGROK: bool = USE_NGROK
 
 class Language(str, Enum):
     python = "python"
