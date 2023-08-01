@@ -1,4 +1,4 @@
-from model.codegen import CodeGenerationPipeline
+from backend.model.codegen import CodeGenerationPipeline
 from classes import ModelData
 
 def init_model(model_data = ModelData):
