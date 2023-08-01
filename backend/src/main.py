@@ -4,7 +4,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.logger import logger
 from classes import ModelData
-from model.classes import Code
+from classes import Code
 
 from generate import init_model
 app = FastAPI()
