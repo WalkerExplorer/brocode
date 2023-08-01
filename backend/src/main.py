@@ -3,8 +3,6 @@ import sys
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.logger import logger
-from .classes import Code, ModelData, Settings
-from .generate import process, init_model
 
 app = FastAPI()
 
