@@ -5,7 +5,7 @@ from pydantic import BaseModel, BaseSettings
 from dataclasses import dataclass
 
 class Settings(BaseSettings):
-    BASE_URL = "http://localhost:8000"
+    BASE_URL = "http://13.53.37.23:8000"
     USE_NGROK = os.environ.get("USE_NGROK", "False") == "True"
 
 class Language(str, Enum):
