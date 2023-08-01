@@ -1,7 +1,7 @@
 import torch
 from peft import PeftModel, PeftConfig
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, AutoModelForSeq2SeqLM
-from ..classes import ModelData
+from backend.classes import ModelData
 
 class CodeGenerationPipeline:
     def __init__(self, data = ModelData):
