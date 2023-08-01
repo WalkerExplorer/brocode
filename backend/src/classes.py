@@ -1,7 +1,8 @@
 import os
 
 from enum import Enum
-from pydantic import BaseModel, BaseSettings
+from pydantic_settings import BaseSettings
+from pydantic import BaseModel
 from dataclasses import dataclass
 
 class Settings(BaseSettings):
