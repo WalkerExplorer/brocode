@@ -57,7 +57,7 @@ sniffio==1.3.0
 starlette==0.27.0
 sympy==1.10.1
 tokenizers==0.13.3
-torch==2.0.0
+torch==1.13.1
 tqdm==4.65.0
 transformers @ git+https://github.com/huggingface/transformers.git@a72b82ebe6891a4a0c65b5e8945fd6549f34c11c
 triton==2.0.0
