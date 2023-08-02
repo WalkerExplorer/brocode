@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 import type { Code, ResponseData } from "~/types/code";
 
-const server = `${process.env.NEXT_PUBLIC_SERVER_HOST || "http://localhost"}:${
-  process.env.NEXT_PUBLIC_SERVER_PORT || ""
-}`;
+const server = "http://13.53.37.23:8000"; // Replace with the actual backend URL
+
 
 export const useDebounce = (value: string, delay: number) => {
   const [debouncedValue, setDebouncedValue] = useState(value);
