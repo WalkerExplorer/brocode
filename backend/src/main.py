@@ -3,7 +3,7 @@ import sys
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.logger import logger
-from classes import ModelData
+from classes import ModelData, Settings
 from classes import Code
 
 from generate import init_model
