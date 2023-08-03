@@ -6,7 +6,7 @@ from fastapi.logger import logger
 from .classes import ModelData, Settings
 from .classes import Code
 
-from generate import init_model
+from .generate import init_model
 app = FastAPI()
 
 app.add_middleware(
